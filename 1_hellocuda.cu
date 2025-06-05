@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <cuda.h>
 #include <cuda_runtime.h>
+#include <device_launch_parameters.h>
+
 
 __global__ void hello_cuda(){
     // 泛指当前线程在所有block范围内的全局id
