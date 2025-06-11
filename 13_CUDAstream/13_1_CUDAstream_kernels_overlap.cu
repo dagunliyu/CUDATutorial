@@ -1,6 +1,7 @@
 #include <cuda_runtime.h>
 #include <iostream>
 #include <vector>
+#include <cstdint>
 
 __global__ void float_add_one(float* buffer, uint32_t n)
 {

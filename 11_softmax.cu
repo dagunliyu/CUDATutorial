@@ -3,6 +3,7 @@
 #include <cuda_fp16.h>
 #include "cuda_runtime.h"
 #include <cmath>
+#include <assert.h>
 
 #define WarpSize 32
 
